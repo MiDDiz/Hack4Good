@@ -1,0 +1,21 @@
+* {
+	margin: 0px;
+}
+
+form {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+form button {
+	background-color: #4caf50;
+	border: none;
+	color: white;
+	padding: 1rem 1.5rem;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
