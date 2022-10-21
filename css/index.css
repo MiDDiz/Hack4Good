@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    background-color: rgb(101, 197, 38);
+	background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+
 }
 
 span {
@@ -16,8 +17,9 @@ span {
     object-fit: cover;
     z-index: -10;
 }
+
 #logo-img {
-    margin-left: auto;
+    margin-left: 0;
     margin-right: auto;
     height: 8rem;
     width: 8rem;
@@ -74,10 +76,10 @@ img {
     max-width: 50%;
     min-width: 30%;
     padding: 1em;
-    margin-bottom: 6%;
+    margin-bottom: 3%;
     padding-left: 3em;
     padding-right: 3em;
-    background-color: rgba(128, 128, 128, 0.8);
+    background: linear-gradient(to right, rgba(182, 244, 146, 0.7), rgba(51, 139, 147, 0.7));
     border-radius: 1em;
     border: 1px solid black;
     text-align: center;

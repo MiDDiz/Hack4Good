@@ -4,38 +4,86 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 		<link rel="stylesheet" href="css/form.css" />
 		<title>LogIn</title>
 	</head>
-	<body>
-		<form action="" method="post">
-			<div>
-				<lable for="name">Nombre:</lable>
-				<br /><input type="text" id="name" name="name" />
+	<body class="hm-gradient">
+    
+		<body class="hm-gradient">
+		
+		<main>
+			
+			<!--MDB Forms-->
+			<div class="container mt-4">
+	
+				<div class="text-center darken-grey-text mb-4">
+					<h1 class="font-bold mt-4 mb-3 h5">Rellena el formulario con tu informacion</h1>
+				</div>
+	
+
+				<div class="form-wrapper">
+
+					<div id="wrapper-id"class="col-md-6 mb-4">
+						<div class="card">
+							<div class="card-body">
+								<h3 class="text-center default-text py-3"><i class="fa fa-pencil"></i> Tus datos:</h3>
+								<div class="md-form">
+									<i class="fa fa-address-card  prefix grey-text"></i>
+									<input type="text" id="defaultForm-name" class="form-control">
+									<label for="defaultForm-name">Nombre</label>
+								</div>
+								<div class="md-form">
+									<i class="fa fa-phone prefix grey-text"></i>
+									<input type="tel" id="defaultForm-tlf" class="form-control">
+									<label for="defaultForm-tlf">Telefono</label>
+								</div>
+								<div class="md-form">
+									<i class="fa fa-globe prefix grey-text"></i>
+									<input type="text" id="defaultForm-county" class="form-control">
+									<label for="defaultForm-county">Provincia</label>
+								</div>
+								<div class="md-form">
+									<i class="fa fa-address-book prefix grey-text"></i>
+									<input type="number" id="defaultForm-cp" class="form-control">
+									<label for="defaultForm-cp">Codigo postal</label>
+								</div>
+								<div class="md-form">
+									<div class="rol-wrapper">
+										<span>Elige tu rol: </span>
+										<select name="role" id="role">
+											<option value="">3ª edad</option>
+											<option value="">Voluntarios</option>
+											<option value="">Granjeros</option>
+										</select>
+									</div>
+								</div>
+								<div class="text-center">
+									<button class="btn btn-default waves-effect waves-light">Listo</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Grid row -->
+			  
+				<hr class="my-4">
+			  
+				<div class="text-center darken-grey-text mb-4">
+					<h3 class="font-bold mb-3">Para volver al inicio</h3>
+					<a class="btn btn-danger" href="index.html" target="">Inicio</a>
+				</div>
+	
 			</div>
-			<div>
-				<lable for="telf">Telefono:</lable>
-				<br /><input type="text" id="telf" name="telf" />
-			</div>
-			<div>
-				<lable for="province">Provincia:</lable>
-				<br /><input type="text" id="province" name="province" />
-			</div>
-			<div>
-				<lable for="cp">Codigo Postal:</lable>
-				<br /><input type="text" id="cp" name="cp" />
-			</div>
-			<div>
-				<label for="role"></label>
-				<select name="role" id="role">
-					<option value="">3ª edad</option>
-					<option value="">Voluntarios</option>
-					<option value="">Granjeros</option>
-				</select>
-			</div>
-			<div>
-				<button type="submit">Crear Cuenta</button>
-			</div>
-		</form>
-	</body>
+			<!--MDB Forms-->
+		  
+		</main>
+		
+			<!-- MDB core JavaScript -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/js/mdb.min.js"></script>
+	  </body>
 </html>
