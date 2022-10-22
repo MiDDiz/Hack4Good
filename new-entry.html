@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Crea un nuevo evento!</title>
+        <meta name="description" content="">
+        <link rel="shortcut icon" href="img/logo-bg-resized.png" type="image/x-icon">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/new-event.css">
+
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo"><img src="./img/logo-bg-resized.png" alt="Firewall"></div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./index.html">Inicio</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container mt-5">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-md-8">
+                    <form id="regForm">
+                        <h1 id="register">Avisanos de un evento</h1>
+                        <div class="all-steps" id="all-steps"> 
+                          <span class="step"><i class="fa fa-user"></i></span>
+                          <span class="step"><i class="fa fa-mobile-phone"></i></span>
+                          <span class="step"><i class="fa fa-map-marker"></i></span>
+                          <span class="step"><i class="fa fa-book"></i></span>
+
+                          
+                        </div>
+        
+                        <div class="tab">
+                          <h6>¿Cual es tu nombre y apellidos?</h6>
+                            <p>
+                              <input placeholder="Nombre..." oninput="this.className = ''" name="fname"></p>
+                            
+                        </div>
+                        <div class="tab">
+                          <h6>¿Cual es tu telefono?</h6>
+                            <p><input placeholder="Telefono" oninput="this.className = ''" name="dd"></p>
+                            
+                        </div>
+                        <div class="tab">
+                            <h6>¿Cual es el lugar?</h6>
+                            <p><input placeholder="Alcobendas..." oninput="this.className = ''" name="email"></p>
+                         
+                        </div>
+                        <div class="tab">
+                            <h6>Por favor, describe que está pasando: </h6>
+                            <p><textarea id="desc" name="desc" rows="4" columns="40" placeholder="Incendio forestal..."> </textarea></p>
+                        </div>
+                        <div class="thanks-message text-center" id="text-message"> <img src="img/logo-bg-resized.png" width="100" class="mb-4">
+                            <h3>Gracias por avisarnos!</h3> <span>Nuestra web no funcionaria sin vuestros avisos y voluntariado!</span>
+                        </div>
+                        <div style="overflow:auto;" id="nextprevious">
+                            <div style="float:right;">
+                              <button type="button" id="prevBtn" onclick="nextPrev(-1)"><i class="fa fa-angle-double-left"></i></button> 
+                              <button type="button" id="nextBtn" onclick="nextPrev(1)"><i class="fa fa-angle-double-right"></i></button> </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="./js/new-entry.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" async defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" async defer></script>
+    </body>
+</html>

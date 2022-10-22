@@ -1,0 +1,187 @@
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+	background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147)) !important ;
+    margin: 0;
+}
+
+  .header {
+    margin: 0;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3a7700;
+  }
+  .header img {
+    width: auto;
+    height: inherit;
+  }
+  
+  .logo {
+    margin-left: 1.5em;
+    width: auto;
+    height: inherit;
+      margin-top: 0.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+  }
+  .header nav {
+    margin-right: 1.5em;
+
+  }
+  .header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .header li {
+    margin-left: 3rem;
+  }
+  
+  .header a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #acf192;
+  }
+  
+  .header a:hover,
+  .header a:active,
+  .header a.active {
+    color: white;
+  }
+  body {
+    background: #eee
+}
+
+#regForm {
+    background-color: #ffffff;
+    margin: 0px auto;
+    font-family: Raleway;
+    padding: 40px;
+    border-radius: 10px
+}
+
+#register{
+
+  color: #1d9a1b;
+}
+
+h1 {
+    text-align: center
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+    border-radius: 10px;
+    -webkit-appearance: none;
+}
+
+
+
+.tab input:focus{
+
+  border:1px solid #1d9a1b !important;
+  outline: none;
+}
+
+input.invalid {
+ 
+    border:1px solid #e03a0666;
+}
+
+.tab {
+    display: none
+}
+
+button {
+    background-color: #1d9a1b;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer
+}
+
+button:hover {
+    opacity: 0.8
+}
+
+button:focus{
+
+  outline: none !important;
+}
+
+#prevBtn {
+    background-color: #bbbbbb
+}
+
+
+.all-steps{
+      text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.step {
+       height: 40px;
+    width: 40px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #1d9a1b;
+    opacity: 0.5;
+}
+
+.step.active {
+    opacity: 1
+}
+
+
+.step.finish {
+   color: #fff;
+   background: #1d9a1b;
+   opacity: 1;
+
+}
+
+
+
+.all-steps {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.thanks-message {
+    display: none
+}
+
+textarea {
+    width: 100%;
+}
