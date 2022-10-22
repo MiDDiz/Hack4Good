@@ -94,3 +94,7 @@ img {
     margin-right: 2em;
     margin-left: auto;
 }
+
+a:hover {
+    opacity: 80%;
+}
