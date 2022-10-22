@@ -21,8 +21,10 @@ span {
 #logo-img {
     margin-left: 0;
     margin-right: auto;
-    height: 8rem;
-    width: 8rem;
+    margin-top: 1em;
+    margin-left: 1em;
+    height: 5.5rem;
+    width: 5rem;
 }
 img {
     height: 4rem;
